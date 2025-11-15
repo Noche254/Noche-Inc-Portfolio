@@ -31,6 +31,15 @@ body {
     color: #333;
 }
 
+.navbar .navbar-nav .nav-link {
+    color: #7c3aed !important;
+    transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #5b21b6 !important;
+}
+
 .nav-links ul {
     list-style: none;
     display: flex;
@@ -39,13 +48,13 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #7c3aed;
     font-size: 18px;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #007bff;
+    color: #5b21b6;
 }
 
 /* Hero Section */
@@ -116,6 +125,13 @@ body {
     transform: translateY(-10px);
 }
 
+.service-icon {
+    font-size: 3em;
+    color: #7c3aed;
+    margin-bottom: 20px;
+    display: block;
+}
+
 .service h3 {
     font-size: 1.8em;
     margin-bottom: 15px;
@@ -159,4 +175,40 @@ body {
     display: flex;
     justify-content: center;
     gap: 40px;
+}
+
+.post {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    transition: transform 0.3s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+}
+
+.post-icon {
+    font-size: 2.5em;
+    color: #7c3aed;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.post h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.post a {
+    color: #7c3aed;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.post a:hover {
+    color: #5b21b6;
 }
